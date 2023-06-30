@@ -1,0 +1,71 @@
+@import url(/style.css);
+
+.banner__desafio-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.desafio1__h1{
+    font-family: var(--fonte-dobrada);
+    font-size: 8rem;
+    color: var(--branco);
+}
+
+.desafio1__h2{
+    font-family: var(--fonte-x-file);
+    font-size: 1.5rem;
+    color: var(--branco);
+ 
+}
+
+.banner__input__d1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.input__d1__txt{
+    font-family: var(--fonte-x-file);
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+
+.input__button__d1{
+    text-align: center;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 20px;
+    border-color: var(--branco);
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-x-file);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 500px){
+    .banner__desafio-1{
+        margin-top: 50%;
+    }
+
+    .desafio1__h1{
+        font-size: 5rem;
+    }
+
+    .desafio1__h2{
+        font-size: 1rem;
+        margin-top: 50px;
+    }
+
+    .input__d1__txt{
+        font-size: 1rem;
+    }
+
+    .input__button__d1{
+        width: 70%;
+    }
+}

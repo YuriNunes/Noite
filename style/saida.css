@@ -1,0 +1,123 @@
+@import url(/style.css);
+
+.banner__saida{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.saida__h1{
+    font-family: var(--fonte-dobrada);
+    font-size: 15rem;
+    color: var(--branco);
+    text-align: center;
+}
+
+.saida__h2{
+    font-family: var(--fonte-x-file);
+    font-size: 1.5rem;
+    color: var(--branco);
+    text-align: center;
+}
+
+.banner__input__saida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__saida__txt{
+    font-family: var(--fonte-x-file);
+    font-size: 1.5rem;
+    color: var(--branco);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+
+.input__button__inicio{
+    font-family: var(--fonte-game);
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.input__button__inicio:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.input__button__desen{
+    font-family: var(--fonte-game);
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px;
+    width: 225px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.input__button__desen:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.rodape{
+    text-align: center;
+    color: var(--branco);
+    margin-top: 15rem;
+    font-family: var(--fonte-x-file);
+}
+
+@media screen and (max-width: 500px){
+    .banner__saida{
+        margin-top: 50%;
+    }
+
+    .saida__h1{
+        font-size: 5rem;
+    }
+
+    .saida__h2{
+        font-size: 1rem;
+        margin-top: 50px;
+    }
+
+    .input__saida__txt{
+        font-size: 1rem;
+    }
+
+    .banner__btn{
+        gap: 5px;
+    }
+
+    .input__button__inicio{
+        font-size: 0.7rem;
+    }
+
+    .input__button__desen{
+        font-size: 0.7rem;
+    }
+
+    .rodape{
+        font-size: 0.8rem;
+    }
+}

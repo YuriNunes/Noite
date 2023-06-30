@@ -1,0 +1,35 @@
+@import url(../style.css);
+
+.death__ttl{
+    font-family: var(--fonte-x-file);
+    font-size: 15rem;
+    text-align: center;
+    color: var(--amarelo);
+    margin-top: 15%;
+}
+
+.input__death{
+    display: flex;
+    justify-content: center;
+}
+
+.input__return{
+    font-family: var(--fonte-x-file);
+    font-size: 2rem;
+    color: var(--amarelo);
+    border: none;
+    background-color: var(--preto);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    .death__ttl{
+        font-size: 5rem;
+        margin-top: 70%;
+    }
+
+    .input__return{
+        font-size: 1rem;
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,64 @@
+@import url(/style.css);
+
+body{
+    background-color: var(--preto);
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.banner__ttl{
+    font-family: var(--fonte-dobrada);
+    font-size: 15rem;
+    color: var(--amarelo);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: var(--fonte-game);
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.rodape{
+    text-align: center;
+    color: var(--branco);
+    margin-top: 15rem;
+    font-family: var(--fonte-x-file);
+}
+
+@media screen and (max-width: 500px){
+    .banner{
+        margin-top: 40%;
+    }
+
+    .banner__ttl{
+        font-size: 10rem;
+
+    }
+
+    .btn{
+        margin-top: 50px;
+    }
+}

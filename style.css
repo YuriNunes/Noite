@@ -1,0 +1,15 @@
+@import url(/style/home.css);
+@import url(/style/morte.css);
+
+:root{
+    --fonte-x-file: 'Special Elite', cursive;
+    --fonte-dobrada: 'Foldit', cursive;
+    --fonte-game: 'Press Start 2P', cursive;
+    --preto: #000000;
+    --amarelo: #FFFF00;
+    --branco: #ffffff;
+}
+
+/* body{
+    background-color: var(--preto);
+} */
