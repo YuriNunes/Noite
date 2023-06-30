@@ -48,7 +48,7 @@ body{
     font-family: var(--fonte-x-file);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .banner{
         margin-top: 40%;
     }

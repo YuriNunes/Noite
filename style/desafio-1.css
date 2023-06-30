@@ -47,7 +47,7 @@
     font-size: 1rem;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .banner__desafio-1{
         margin-top: 50%;
     }

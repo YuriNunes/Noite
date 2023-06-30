@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .death__ttl{
         font-size: 5rem;
         margin-top: 70%;
